@@ -89,3 +89,7 @@ const uint16_t notes[] = {12134, 16198, 15289, 13620, 15289, 16198, 18181, 18181
 const int timing_ms[] = {462, 231, 231, 462, 231, 231, 462, 231, 231, 462, 231, 231, 692, 231, 462, 462, 462, 462, 462, 462, 231, 462, 231, 462, 231, 231, 692, 231, 462, 231, 231, 692, 231, 462, 462, 462, 462, 462, 462, 923, 923, 923, 923, 923, 923, 1846, 923, 923, 923, 923, 462, 462, 462, 462, 1846};
 int last_note = 55;
 ```
+
+
+## Limitations
+The biggest drawback to this approach is the need to store every note with an integer and a 16-bit integer, which takes up a lot of space. It would probably be better to store each 16-bit value for the notes once as a constant, and use an 8-bit number to represent which note to select.
