@@ -90,6 +90,19 @@ const int timing_ms[] = {462, 231, 231, 462, 231, 231, 462, 231, 231, 462, 231, 
 int last_note = 55;
 ```
 
+## Video Exmample
+
+
+
+https://user-images.githubusercontent.com/77563588/145646197-76c91a9e-2982-4eee-b43e-c19b213513bb.mp4
+
+
+Video of the circuit playing "Attack of the Killer Queen," a song by Toby Fox, Lena Raine, and Marcy Nabors.
+
+This tune has 451 notes, which was only reasonable to program thanks to the python music translator.
+
+
+
 
 ## Limitations
 The biggest drawback to this approach is the need to store every note with an integer and a 16-bit integer, which takes up a lot of space. It would probably be better to store each 16-bit value for the notes once as a constant, and use an 8-bit number to represent which note to select.
