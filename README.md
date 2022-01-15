@@ -93,9 +93,7 @@ int last_note = 55;
 ## Video Exmample
 
 
-
-https://user-images.githubusercontent.com/77563588/145646197-76c91a9e-2982-4eee-b43e-c19b213513bb.mp4
-
+https://youtu.be/GVEnl32yGfY
 
 Video of the circuit playing "Attack of the Killer Queen," a song by Toby Fox, Lena Raine, and Marcy Nabors.
 
