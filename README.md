@@ -17,7 +17,7 @@ To stop sound for rests, indicated by 0 in the note array, and to allow for the 
 ## Python automation
 The firmware is simple to code, but it comes with a drawback: it relies on specifically formatted arrays to load onto the microcontroller.
 
-To overcome this issue, and make it easy to program multiple different songs, I wrote a python program that translates from an easy-to-write text file to the specific C++ arrays for the firmware. The ultimate goal was to make it easy to transcribe sheet music into this system.
+To overcome this issue and make it easy to program multiple different songs, I wrote a python program that translates from an easy-to-write text file to the specific C++ arrays for the firmware. The ultimate goal was to make it easy to transcribe sheet music into this system.
 
 ### Input
 First, create a .txt file.
